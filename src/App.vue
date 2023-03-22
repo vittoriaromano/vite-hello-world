@@ -1,17 +1,12 @@
 <script>
+import GreetingMessage from './components/GreetingMessage.vue';
 export default{
-  data(){
-    return{
-      AppTitle:'La mia prima app con Vite!'
-    }
+  components:{
+    GreetingMessage
   }
 }
 </script>
-
 <template>
-  <h1>{{ AppTitle }}</h1>
+ <GreetingMessage></GreetingMessage>
 </template>
-
-<style scoped>
-
-</style>
+<style scoped></style>
